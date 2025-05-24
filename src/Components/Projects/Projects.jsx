@@ -36,7 +36,7 @@ const Projects = () => {
       </div>
       <div className="w-full md:w-1/2 space-y-4">
         <div className="flex justify-center">
-          <h3 className="text-xl font-semibold text-center">Learning & Development Management System</h3>
+          <h3 className="text-xl font-semibold text-center">Learning AND Development Management System</h3>
         </div>
        <span className="text-justify leading-relaxed">
   A comprehensive Learning & Development Management System that enables users to enroll in courses, access video content, and complete assessments. It includes progress tracking, timed quizzes, certification on completion, and an admin panel for managing users, courses, and analytics—ideal for corporate training and educational platforms.
