@@ -1,0 +1,45 @@
+.header_List ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  top: 0;
+}
+
+.header_Main {
+  display: flex;
+  justify-content: end;
+  padding: 15px 30px 10px 10px;
+}
+
+.list_Item {
+  position: relative;
+  display: inline-block;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Scale effect */
+.list_Item:hover {
+  transform: scale(1.08);
+  color: #d97706;
+}
+
+/* Animated underline */
+.list_Item::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0%;
+  height: 2px;
+  background-color: #d97706;
+  transition: width 0.3s ease-in-out;
+}
+
+.list_Item:hover::after {
+  width: 100%;
+}
+
+/* Optional: prevent scrolling when menu is open */
+body.menu-open {
+  overflow: hidden;
+}

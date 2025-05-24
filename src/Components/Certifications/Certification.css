@@ -1,0 +1,16 @@
+.certification_Details {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 5s ease, transform 5s ease;
+}
+
+.certification_Details.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.certification_Details:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
