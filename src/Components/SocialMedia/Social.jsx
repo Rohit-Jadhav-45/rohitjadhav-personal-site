@@ -6,7 +6,7 @@ const Social = ({ isDarkBackground }) => {
     <div>
       <div className="social-media flex gap-6 mt-6 text-2xl">
         <a
-          href="https://www.linkedin.com/in/yourprofile"
+          href="https://www.linkedin.com/in/rohit-jadhav-8b7a62267/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-blue-700"
@@ -22,7 +22,7 @@ const Social = ({ isDarkBackground }) => {
           />
         </a>
         <a
-          href="https://github.com/yourprofile"
+          href="https://github.com/Rohit-Jadhav-45?tab=repositories"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-gray-800"
@@ -35,7 +35,7 @@ const Social = ({ isDarkBackground }) => {
           />
         </a>
         <a
-          href="https://github.com/yourprofile"
+          href="https://github.com"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-gray-800"

@@ -28,7 +28,7 @@ const Dashboard = () => {
             <h2 className="text-3xl font-bold fade-in-up text-center md:text-left">HELLO, I'M ROHIT.</h2>
             <h2 className="text-2xl font-bold fade-in-up text-center md:text-left">NICE TO MEET YOU!</h2>
             <p className="mt-4 fade-in-up text-justify text-sm md:text-base px-4 md:px-0">
-              I'm a frontend developer with a passion for creating responsive and user-friendly web interfaces using React,
+              I'm a Software developer with a passion for creating responsive and user-friendly web interfaces using React,
               JavaScript, HTML, and CSS. I love solving complex problems with clean, efficient UI solutions. I'm now expanding
               my knowledge by exploring backend technologies like Node.js.
             </p>

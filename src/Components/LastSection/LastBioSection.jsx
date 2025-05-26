@@ -40,7 +40,7 @@ const LastBioSection = () => {
         </div>
         <div className="w-full md:w-1/4">
           <h3 className="font-semibold mb-2">FOLLOW ME HERE</h3>
-          <div className="flex justify-center md:justify-start">
+          <div className="flex justify-center md:justify-center">
             <Social isDarkBackground={true} />
           </div>
         </div>
