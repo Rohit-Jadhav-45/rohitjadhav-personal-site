@@ -4,19 +4,13 @@
 
 /* Profile Image Styling */
 .intro_Image {
-  background-image: url('../../assets/Media.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: 100%;
   border-radius: 2%;
-
-  aspect-ratio: 4 / 3; /* maintain ratio */
   height: auto;
   min-height: 200px;
-
-  margin-left: auto;  /* Center horizontally */
-  margin-right: auto; /* Center horizontally */
 }
 
 @media (min-width: 768px) {

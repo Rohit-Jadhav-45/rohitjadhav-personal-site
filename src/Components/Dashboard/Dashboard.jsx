@@ -14,7 +14,13 @@ const Dashboard = () => {
 
 
         {/* Image First on Mobile, Second on Desktop */}
-        <div className="intro_Image md:w-1/2 max-w-sm mx-auto md:mx-0 bg-zoom-animation order-1 md:order-2"></div>
+        <div className="intro_Image md:w-1/2 max-w-sm mx-auto md:mx-0 bg-zoom-animation order-1 md:order-2">
+          <img
+            src={Media}
+            alt="Intro"
+           className="w-full max-w-sm h-auto object-contain mx-2"
+          />
+        </div>
 
         {/* Text Second on Mobile, First on Desktop */}
         <div className="intro_Text w-full md:w-1/2 flex items-center justify-center mb-6 md:mb-0 order-2 md:order-1">
