@@ -27,13 +27,14 @@ const Certifications = () => {
     },
   ];
 
-  const cardColors = [
-    'bg-blue-100 text-blue-800 border-blue-300',
-    'bg-green-100 text-green-800 border-green-300',
-    'bg-yellow-100 text-yellow-800 border-yellow-300',
-    'bg-purple-100 text-purple-800 border-purple-300',
-    'bg-pink-100 text-pink-800 border-pink-300',
-  ];
+ const cardColors = [
+  'bg-rose-100 text-rose-800 border-rose-300',
+  'bg-indigo-100 text-indigo-800 border-indigo-300',
+  'bg-slate-100 text-slate-800 border-slate-300',
+  'bg-fuchsia-100 text-fuchsia-800 border-fuchsia-300',
+  'bg-amber-100 text-amber-800 border-amber-300',
+];
+
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -61,7 +62,7 @@ const Certifications = () => {
   }, []);
 
   return (
-    <div className="bg-gradient-to-br from-pink-100 via-red-100 to-yellow-100 px-4 py-6">
+    <div className="bg-gradient-to-br from-rose-50 via-slate-50 to-rose-100 px-4 py-6">
       <h2 className="text-2xl font-bold flex justify-center items-center mb-6">Certifications</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full">
         {certificationsData.map((item, index) => (

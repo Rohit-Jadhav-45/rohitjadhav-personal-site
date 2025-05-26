@@ -7,7 +7,7 @@ const Header = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <div className='header_Main bg-gradient-to-r from-yellow-100 via-pink-100 to-rose-200 w-full fixed top-0 z-50'>
+   <div className="header_Main bg-white shadow-md border-b border-gray-200 w-full fixed top-0 z-50 px-6 py-4 flex items-center justify-between">
 
       {/* Desktop Nav */}
       <div className='hidden md:flex header_List'>

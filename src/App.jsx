@@ -6,6 +6,7 @@ import About from './Components/About/About';
 import Projects from './Components/Projects/Projects';
 import Certifications from './Components/Certifications/Certifications';
 import Contact from './Components/Contact/Contact';
+import LastBioSection from './Components/LastSection/LastBioSection';
 
 
 import './App.css'
@@ -29,6 +30,9 @@ function App() {
       </section>
       <section id="contact">
            <Contact/>
+      </section>
+       <section id="LastSection">
+           <LastBioSection/>
       </section>
     </div>
   )

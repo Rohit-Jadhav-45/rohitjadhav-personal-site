@@ -1,23 +1,59 @@
-import React from 'react'
-import { FaLinkedin, FaGithub,FaInstagram} from 'react-icons/fa';
+import React from 'react';
+import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
 
-
-const Social = () => {
+const Social = ({ isDarkBackground }) => {
   return (
-     <div>
-       <div className="social-media flex gap-6 mt-6 text-2xl">
-      <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="hover:text-blue-700">
-        <FaLinkedin   className="transition-transform duration-300 transform hover:scale-125 hover:text-blue-700"/>
-      </a>
-      <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer" className="hover:text-gray-800">
-        <FaGithub   className="transition-transform duration-300 transform hover:scale-125 hover:text-blue-700"/>
-      </a>
-       <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer" className="hover:text-gray-800">
-        <FaInstagram   className="transition-transform duration-300 transform hover:scale-125 hover:text-blue-700"/>
-      </a>
+    <div>
+      <div className="social-media flex gap-6 mt-6 text-2xl">
+        <a
+          href="https://www.linkedin.com/in/yourprofile"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-blue-700"
+          >
+          <FaLinkedin
+            style={{
+              backgroundColor: '#0077B5',
+              color: 'white',
+              borderRadius: '6px',
+              padding: '4px',
+            }}
+            className="transition-transform duration-300 transform hover:scale-125 hover:text-blue-700"
+          />
+        </a>
+        <a
+          href="https://github.com/yourprofile"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-gray-800"
+          >
+          <FaGithub
+            style={{
+              color: isDarkBackground ? '#ffffff' : '#181717',
+            }}
+            className="transition-transform duration-300 transform hover:scale-125 hover:text-blue-700"
+          />
+        </a>
+        <a
+          href="https://github.com/yourprofile"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-gray-800"
+          >
+          <FaInstagram
+            style={{
+              background:
+                'linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5)',
+              borderRadius: '6px',
+              padding: '4px',
+              color: 'white',
+            }}
+            className="transition-transform duration-300 transform hover:scale-125 hover:text-blue-700"
+          />
+        </a>
+      </div>
     </div>
-    </div>
-  )
-}
+  );
+};
 
-export default Social
+export default Social;
