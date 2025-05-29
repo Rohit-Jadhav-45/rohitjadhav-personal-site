@@ -21,7 +21,7 @@ const Header = () => {
       </div>
 
       {/* Mobile Hamburger Icon */}
-      <div className="flex md:hidden justify-end w-full pr-6">
+      <div className="flex md:hidden justify-end w-full">
         <button onClick={toggleMenu} className="text-3xl font-bold text-black focus:outline-none">
           ☰
         </button>

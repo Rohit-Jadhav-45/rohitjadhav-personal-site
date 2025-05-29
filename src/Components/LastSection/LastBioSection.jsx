@@ -11,7 +11,7 @@ const LastBioSection = () => {
         <div className="w-full md:w-1/4">
           <h3 className="font-semibold mb-2">ABOUT ME</h3>
           <p className="text-sm text-gray-300 leading-relaxed">
-            I'm a passionate frontend developer skilled in React and JavaScript. I love building responsive, user-friendly interfaces and am always eager to learn and grow in the tech world.
+            I'm a passionate software developer skilled in React and JavaScript. I love building responsive, user-friendly interfaces and am always eager to learn and grow in the tech world.
           </p>
           <img src={signature} alt="" className="mx-auto md:mx-0" />
         </div>
