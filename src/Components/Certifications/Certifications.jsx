@@ -1,29 +1,38 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
+import CertificateView from './CertificateView';
+import courseraLEI from '../../assets/LEI.png'
+import workSmarter from '../../assets/WorkSmarter.png'
 import './Certification.css';
 
 const Certifications = () => {
   const cardRefs = useRef([]);
+  const [showModal, setShowModal] = useState(false);
+  const [selectedCertificate, setSelectedCertificate] = useState(null);
 
   const certificationsData = [
     {
       title: 'MERN Stack developer',
       provider: 'Systems & Network Technologies, Pune',
       year: 'Mar 2023',
+      image:''
     },
     {
       title: 'Web Development',
       provider: 'TechnoLearn Trainings, Pune',
       year: 'Nov 2022',
+      image:''
     },
     {
       title: 'Leadership And Emotional Intelligence',
       provider: 'Coursera',
       year: 'Jul 2021',
+      image:courseraLEI
     },
     {
       title: 'Work Smarter Not Harder',
       provider: 'Coursera',
       year: 'Jul 2021',
+      image:workSmarter
     },
   ];
 
@@ -61,6 +70,21 @@ const Certifications = () => {
     };
   }, []);
 
+
+  // Certificate Click Handler
+
+  const handleCertificateClick =(cert)=>{debugger
+           setSelectedCertificate(cert)
+           setShowModal(true);
+  }
+
+  const closeModal = () =>{
+           setShowModal(false);
+           setSelectedCertificate(null)
+  }
+
+   
+
   return (
     <div className="bg-gradient-to-br from-rose-50 via-slate-50 to-rose-100 px-4 py-6">
       <h2 className="text-2xl font-bold flex justify-center items-center mb-6">Certifications</h2>
@@ -70,6 +94,7 @@ const Certifications = () => {
             key={index}
             ref={(el) => (cardRefs.current[index] = el)}
             className={`certification_Details p-4 border rounded-lg shadow-sm h-auto ${cardColors[index % cardColors.length]}`}
+            onClick={()=>handleCertificateClick(item)}
           >
             <h3 className="text-xl font-medium">{item.title}</h3>
             <p className="text-gray-600 mt-1">{item.provider}</p>
@@ -77,6 +102,11 @@ const Certifications = () => {
           </div>
         ))}
       </div>
+      <CertificateView
+         showModal={showModal}
+         certificate={selectedCertificate}
+         onClose={closeModal}
+      />
     </div>
   );
 };

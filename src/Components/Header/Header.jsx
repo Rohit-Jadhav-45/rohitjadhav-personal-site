@@ -7,16 +7,20 @@ const Header = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-   <div className="header_Main bg-white shadow-md border-b border-gray-200 w-full fixed top-0 z-50 px-6 py-4 flex items-center justify-between">
+   <div className="header_Main bg-purple-100 shadow-md border-b border-purple-300 w-full fixed top-0 z-50 px-6 py-4 flex items-center justify-between">
+<div className="text-xs sm:text-sm md:text-base font-medium text-left w-full pl-4 sm:pl-6 md:pl-10 whitespace-nowrap bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">
+  Living life on the edge of technology.
+</div>
 
+ 
       {/* Desktop Nav */}
       <div className='hidden md:flex header_List'>
         <ul className='text-lg'>
-          <li><a href="#home" className="list_Item !text-black !font-normal">Home</a></li>
-          <li><a href="#about" className="list_Item !text-black !font-normal">About</a></li>
-          <li><a href="#projects" className="list_Item !text-black !font-normal">Projects</a></li>
-          <li><a href="#certifications" className="list_Item !text-black !font-normal">Certifications</a></li>
-          <li><a href="#contact" className="list_Item !text-black !font-normal">Contact</a></li>
+          <li><a href="#home" className="list_Item !text-purple-900 !font-normal">Home</a></li>
+          <li><a href="#about" className="list_Item !text-purple-900 !font-normal">About</a></li>
+          <li><a href="#projects" className="list_Item !text-purple-900 !font-normal">Projects</a></li>
+          <li><a href="#certifications" className="list_Item !text-purple-900 !font-normal">Certifications</a></li>
+          <li><a href="#contact" className="list_Item !text-purple-900 !font-normal">Contact</a></li>
         </ul>
       </div>
 
