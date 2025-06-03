@@ -46,4 +46,13 @@ body.menu-open {
 .toggleButton{
   padding: 0.4em 0.8em !important;
   background-color: #fff;
+   outline: none !important;
+    box-shadow: none !important;
+    border: none;
+}
+.sidebarCloseIcon{
+    background-color: #fff;
+    outline: none !important;
+    box-shadow: none !important;
+    border: none;
 }

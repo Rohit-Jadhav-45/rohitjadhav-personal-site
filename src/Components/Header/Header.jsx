@@ -35,7 +35,7 @@ const Header = () => {
       {/* Sidebar Overlay */}
       <div className={`mobile_Sidebar md:hidden fixed top-0 right-0 h-full w-[70%] bg-white shadow-lg z-50 transform transition-transform duration-300 ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
         <div className="flex justify-end p-4">
-          <button onClick={toggleMenu} className="text-2xl text-black">✕</button>
+          <button onClick={toggleMenu} className="sidebarCloseIcon text-2xl text-black">✕</button>
         </div>
         <ul className="flex flex-col items-center gap-4 mt-8 text-lg">
           <li><a href="#home" onClick={toggleMenu} className="list_Item !text-black">Home</a></li>
