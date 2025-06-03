@@ -8,7 +8,7 @@
 .header_Main {
   display: flex;
   justify-content: end;
-  padding: 15px 30px 10px 10px;
+  padding: 15px 10px 10px 10px;
 }
 
 .list_Item {
@@ -42,4 +42,7 @@
 /* Optional: prevent scrolling when menu is open */
 body.menu-open {
   overflow: hidden;
+}
+.toggleButton{
+  padding: 0.4em 0.8em !important;
 }
