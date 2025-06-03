@@ -87,7 +87,7 @@ const Certifications = () => {
 
   return (
     <div className="bg-gradient-to-br from-rose-50 via-slate-50 to-rose-100 px-4 py-6">
-      <h2 className="text-2xl font-bold flex justify-center items-center mb-6">Certifications</h2>
+      <h2 className="text-2xl font-bold flex justify-center items-center mb-6 text-gray-800">Certifications</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full">
         {certificationsData.map((item, index) => (
           <div

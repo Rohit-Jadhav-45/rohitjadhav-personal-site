@@ -45,4 +45,5 @@ body.menu-open {
 }
 .toggleButton{
   padding: 0.4em 0.8em !important;
+  background-color: #fff;
 }

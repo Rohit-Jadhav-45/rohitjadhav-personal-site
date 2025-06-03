@@ -26,9 +26,9 @@ const Dashboard = () => {
         {/* Text Second on Mobile, First on Desktop */}
         <div className="intro_Text w-full md:w-1/2 flex items-center justify-center mb-6 md:mb-0 order-2 md:order-1">
           <div className="introActual_Content mt-5">
-            <h2 className="text-3xl font-bold fade-in-up text-center md:text-left">HELLO, I'M ROHIT.</h2>
-            <h2 className="text-2xl font-bold fade-in-up text-center md:text-left">NICE TO MEET YOU!</h2>
-            <p className="mt-4 fade-in-up text-justify text-sm md:text-base px-4 md:px-0">
+            <h2 className="text-3xl font-bold fade-in-up text-center md:text-left text-gray-800">HELLO, I'M ROHIT.</h2>
+            <h2 className="text-2xl font-bold fade-in-up text-center md:text-left text-gray-800">NICE TO MEET YOU!</h2>
+            <p className="mt-4 fade-in-up text-justify text-sm md:text-base px-4 md:px-0 text-gray-800">
               I'm a software developer with a passion for creating responsive and user-friendly web interfaces using React,
               JavaScript, HTML, and CSS. I love solving complex problems with clean, efficient UI solutions. I'm now expanding
               my knowledge by exploring backend technologies like Node.js.

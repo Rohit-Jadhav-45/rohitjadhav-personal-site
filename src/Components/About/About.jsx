@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="bg-gradient-to-br from-[#f8fafc] via-[#e2e8f0] to-[#cbd5e1] px-6 py-10">
       <div>
-        <h2 className='text-2xl font-bold flex justify-center'>ABOUT ME</h2>
+        <h2 className='text-2xl font-bold flex justify-center text-gray-800'>ABOUT ME</h2>
       </div>
       <div className='px-4 text-[14px] leading-relaxed text-gray-800 mt-5'>
         <p>
