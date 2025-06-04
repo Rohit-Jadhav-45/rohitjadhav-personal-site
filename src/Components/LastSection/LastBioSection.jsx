@@ -73,7 +73,7 @@ const LastBioSection = () => {
     </div>
   </div>
 
-  <hr className="border-t border-gray-700 w-11/12 mx-auto" />
+  <hr className="border-t border-gray-700 w-11/12 mx-auto mt-4" />
   <p className="text-center text-sm text-gray-500 mt-4">
     Always learning, always building — Rohit Jadhav | copyright {new Date().getFullYear()}
   </p>
