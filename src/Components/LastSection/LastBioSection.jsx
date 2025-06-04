@@ -32,7 +32,6 @@ const LastBioSection = () => {
       <span>VS Code, Eclipse IDE, Postman, Git</span>
     </div>
   </div>
-  
   <img src={signature} alt="signature" className="mx-auto md:mx-0 mt-2" />
 </div>
 
@@ -66,7 +65,7 @@ const LastBioSection = () => {
 
     {/* SOCIAL */}
     <div className="w-full md:w-1/4 flex flex-col items-center text-center">
-      <h3 className="font-semibold mb-2">FOLLOW ME HERE</h3>
+      <h3 className="font-semibold">FOLLOW ME HERE</h3>
       <div className="flex justify-center">
         <Social isDarkBackground={true} />
       </div>
