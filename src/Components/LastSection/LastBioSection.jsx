@@ -33,13 +33,13 @@ const LastBioSection = () => {
     </div>
   </div>
   
-  <img src={signature} alt="signature" className="mx-auto md:mx-0 mt-4" />
+  <img src={signature} alt="signature" className="mx-auto md:mx-0 mt-2" />
 </div>
 
 
     {/* NAVIGATIONS */}
     <div className="w-full md:w-1/4 flex flex-col items-center  text-center">
-      <h3 className="font-semibold mb-2">NAVIGATIONS</h3>
+      <h3 className="font-semibold ">NAVIGATIONS</h3>
       <ul className="space-y-4 mt-4 text-sm text-gray-300">
         <li><a href="#home" className="list_Item !text-white !font-normal">Home</a></li>
         <li><a href="#about" className="list_Item !text-white !font-normal">About</a></li>

@@ -73,7 +73,7 @@ const Certifications = () => {
 
   // Certificate Click Handler
 
-  const handleCertificateClick =(cert)=>{debugger
+  const handleCertificateClick =(cert)=>{
            setSelectedCertificate(cert)
            setShowModal(true);
   }
